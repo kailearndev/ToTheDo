@@ -14,6 +14,9 @@
 		2AC763832C5FEF03001E5E95 /* ToTheDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC763822C5FEF03001E5E95 /* ToTheDoTests.swift */; };
 		2AC7638D2C5FEF03001E5E95 /* ToTheDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7638C2C5FEF03001E5E95 /* ToTheDoUITests.swift */; };
 		2AC7638F2C5FEF03001E5E95 /* ToTheDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7638E2C5FEF03001E5E95 /* ToTheDoUITestsLaunchTests.swift */; };
+		2AC7639C2C5FEF2E001E5E95 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7639B2C5FEF2E001E5E95 /* ToDoItem.swift */; };
+		2AC763A02C5FF0B1001E5E95 /* CreateTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7639F2C5FF0B1001E5E95 /* CreateTodo.swift */; };
+		2AC763A22C5FFEBD001E5E95 /* UpdateTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC763A12C5FFEBD001E5E95 /* UpdateTodo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		2AC763882C5FEF03001E5E95 /* ToTheDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToTheDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC7638C2C5FEF03001E5E95 /* ToTheDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToTheDoUITests.swift; sourceTree = "<group>"; };
 		2AC7638E2C5FEF03001E5E95 /* ToTheDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToTheDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AC7639B2C5FEF2E001E5E95 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		2AC7639F2C5FF0B1001E5E95 /* CreateTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodo.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2AC763A12C5FFEBD001E5E95 /* UpdateTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTodo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		2AC763702C5FEF00001E5E95 /* ToTheDo */ = {
 			isa = PBXGroup;
 			children = (
+				2AC7639F2C5FF0B1001E5E95 /* CreateTodo.swift */,
+				2AC763A12C5FFEBD001E5E95 /* UpdateTodo.swift */,
+				2AC7639B2C5FEF2E001E5E95 /* ToDoItem.swift */,
 				2AC763712C5FEF00001E5E95 /* ToTheDoApp.swift */,
 				2AC763732C5FEF00001E5E95 /* ContentView.swift */,
 				2AC763752C5FEF02001E5E95 /* Assets.xcassets */,
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC763A22C5FFEBD001E5E95 /* UpdateTodo.swift in Sources */,
 				2AC763742C5FEF00001E5E95 /* ContentView.swift in Sources */,
+				2AC763A02C5FF0B1001E5E95 /* CreateTodo.swift in Sources */,
 				2AC763722C5FEF00001E5E95 /* ToTheDoApp.swift in Sources */,
+				2AC7639C2C5FEF2E001E5E95 /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
